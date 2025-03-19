@@ -3,54 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Static Website</title>
+    <title>Simple Website</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
             margin: 0;
-            padding: 0;
             background-color: #f4f4f4;
         }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 15px;
-            font-size: 24px;
-        }
-        .container {
-            max-width: 800px;
-            margin: 50px auto;
-            padding: 20px;
-            background: white;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            border-radius: 8px;
-        }
-        button {
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            border: none;
-            border-radius: 5px;
-            background-color: #007BFF;
-            color: white;
-            margin-top: 20px;
+        h1 {
+            font-size: 32px;
+            color: #333;
         }
     </style>
 </head>
 <body>
-    <header>Welcome to My Static Website</header>
-    <div class="container">
-        <h1>Hello, World!</h1>
-        <p>This is a simple static website.</p>
-        <button onclick="changeText()">Click Me</button>
-        <p id="message"></p>
-    </div>
-
-    <script>
-        function changeText() {
-            document.getElementById("message").innerText = "You clicked the button!";
-        }
-    </script>
+    <h1>Luis Rex likes boys</h1>
 </body>
 </html>
